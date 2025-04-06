@@ -36,7 +36,7 @@ public class ticrupture
 
         modEventBus.addListener(this::addCreative);
 
-
+        ModifierRegister.MODIFIERS.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
