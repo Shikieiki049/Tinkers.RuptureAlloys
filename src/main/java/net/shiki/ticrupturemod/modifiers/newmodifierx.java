@@ -10,7 +10,7 @@ import slimeknights.tconstruct.library.tools.nbt.IToolStackView;
 
 import static net.shiki.ticrupturemod.init.ModEffects.RUPTURE_EFFECT;
 
-public class newmodifier extends Modifier implements MeleeHitModifierHook {
+public class newmodifierx extends Modifier implements MeleeHitModifierHook {
 
     @Override
     public void afterMeleeHit(IToolStackView tool, ModifierEntry modifier, ToolAttackContext context, float damageDealt) {
